@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    text-align: center;
+}
+.header{
+    background-color: #1A1C55;
+    text-align: center;
+}
+.logo{
+    margin:15px auto;
+}
+.header_baseline{
+    width: 100%;
+    height: 4px;
+    background-color: #04E2AF;
+    ;
+}
+.tick{
+    height: auto;
+    margin: 15px auto;
+}
+.caller{
+    background-color: #1A1C55;
+    color:white;
+    
+    width: 85%;
+    margin: 10px auto;
+    padding:10px;
+}
+.caller p, .username, .congo_text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.username{
+    color: #9C6AFD;
+}
+.congo_text{
+    width: 80%;
+    margin:10px auto;
+    font-weight: 400;
+    color:#868686;
+}
+.info_box{
+    width: 60%;
+    margin:10px auto;
+    padding: 10px;
+    background-color: #1A1C55;
+    border-radius: 12px;
+    text-align: left;
+}
+.info_box h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.info_box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.info_box p span{
+    color: #04E2AF;
+    font-weight: 600;
+
+}
+.warning{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #FDD4D4;
+}
+.warning p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D43F3F;
+}
+.grey{ 
+    width: 80%;
+    height: 1px;
+    margin: 10px auto 25px auto;
+    background-color:#DBDBDB;
+ 
+}
+.activity, .automated{
+    width: 80%;
+    margin: 15px auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#868686;
+}
+.activity span{
+    color:#176EF0;
+    font-weight:600;
+}
+.footer{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left p, .footer .right p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color:#868686;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    color:aqua;
+    margin:0 2px;
+}
+@media screen and (max-width: 480px) {
+    .footer{
+        display: block;
+    }
+    .footer .left{
+        text-align: center;
+    }
+    .icons{
+        justify-content: center;
+    }
+
+}
