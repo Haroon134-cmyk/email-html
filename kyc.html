@@ -22,7 +22,7 @@
 
         body {
             text-align: center;
-            max-width: 700px;
+            
         }
         .wrapper{
             max-width: 700px;
@@ -72,9 +72,52 @@
 
         .congo_text {
             width: 80%;
-            margin: 10px auto 20px auto;
+            margin: 10px auto;
             font-weight: 400;
             color: #868686;
+        }
+
+        .info_box {
+            width: 60%;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #1A1C55;
+            border-radius: 12px;
+            text-align: left;
+        }
+
+        .info_box h2 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: white;
+        }
+
+        .info_box p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: white;
+        }
+
+        .info_box p span {
+            color: #04E2AF;
+            font-weight: 600;
+
+        }
+
+        .warning {
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #FDD4D4;
+        }
+
+        .warning p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #D43F3F;
         }
 
         .grey {
@@ -85,13 +128,19 @@
 
         }
 
-        .activity {
+        .activity,
+        .automated {
             width: 80%;
-            margin: 15px auto 25px auto;
+            margin: 15px auto;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
             color: #868686;
+        }
+
+        .activity span {
+            color: #176EF0;
+            font-weight: 600;
         }
 
         .footer {
@@ -108,7 +157,6 @@
             font-weight: 400;
             color: #868686;
         }
-
         .footer .left p {
             text-align: start;
         }
@@ -146,23 +194,34 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <img width="180px" src="https://lctassets.s3.amazonaws.com/Group+1000002718.png" class="logo" alt="">
+            <img src="https://lctassets.s3.amazonaws.com/Group+1000002718.png" width="180px" class="logo" alt="">
         </div>
         <div class="header_baseline"></div>
         <img src="https://lctassets.s3.amazonaws.com/TIck.gif" class="tick" alt="">
         <div class="caller">
-            <p>Password Successfully Changed</p>
+            <p>Dear Local Trader User</p>
         </div>
         <p class="username">
             [User Name]
         </p>
-        <p class="congo_text">We wanted to let you know that your password has been successfully updated. Please review the
-            Security section for more details.</p>
+        <p class="congo_text">Congratulations! You have successfully completed your password reset request via KYC face scan
+            detection, which has been approved.</p>
+        <div class="info_box">
+            <h2> Log Details</h2>
+            <p> IP Address: <span> 121.456.78.90</span></p>
+            <p> Location: <span> Lahore, Pkistan</span></p>
+            <p> Date/Time: <span>8/8/2024</span></p>
+            <p> Device: <span>Iphone 5</span></p>
+        </div>
+        <div class="warning">
+            <p>Please note that all types of withdrawals are suspended for 7 days.</p>
+        </div>
         <div class="grey"></div>
         <p class="activity">
-            If you did not make this change,please contact customer support immediately.
-    
+            Don’t recognize this activity? <span>Please Change your password</span> and contact
+            <span>customer support</span> immediately.
         </p>
+        <p class="automated">This is an automated message, please do not reply.</p>
         <div class="grey"></div>
         <div class="footer">
             <div class="left">
